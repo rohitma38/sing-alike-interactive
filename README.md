@@ -9,7 +9,9 @@ We obtained some recordings of each artist, separated the vocals using [Spleeter
 Given a test sample, we first encode it, use the same projection to reduce its dimensionality and classify it using a simple [k-nearest neighbors](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) method.
 
 ## How to use it
-The demo is provided in the form of a python notebook with instructions in place, wherever needed. To run it on Google Colab, click on the 'Open In Colab' button at the top. To run it locally, you can use the 'demo_local.ipnb', but be sure to install the dependencies listed in the requirements file.
+The demo is provided in the form of a python notebook with instructions in place, wherever needed.
+* To run it on Google Colab, click on the 'Open In Colab' button at the top.
+* To run it locally, you can use the 'demo_local.ipnb', but be sure to install the dependencies listed in the requirements file (do also check out the [dependencies](https://github.com/resemble-ai/Resemblyzer/blob/master/requirements_package.txt) that resemblyzer will install and note that pyaudio will require portaudio to be pre-installed)
 
 ## Acknowledgements
 This tool was built as a hack during Music Hack Day India in December 2019, the first hackathon organised by [MusicTechCommunity India](https://musictechcommunity.org/).
