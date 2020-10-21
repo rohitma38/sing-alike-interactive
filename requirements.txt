@@ -1,0 +1,6 @@
+Resemblyzer==0.1.1.dev0
+umap-learn==0.4.6
+PyAudio==0.2.11
+matplotlib==3.3.2
+jupyter==1.0.0
+numba==0.48.0
