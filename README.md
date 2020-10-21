@@ -6,6 +6,8 @@ This demo is a prototype of a system that tells you which popular artist you sou
 ## How the system was built
 We obtained some recordings of each artist, separated the vocals using [Spleeter](https://github.com/deezer/spleeter) and obtained embeddings on 10-second chunks using [Resemblyzer](https://github.com/resemble-ai/Resemblyzer). These embeddings are 256-length vectors, that are supposed to "encode" the essential characteristics of the voice. We then used the [supervised UMAP projection](https://umap-learn.readthedocs.io/en/latest/supervised.html#using-labels-to-separate-classes-supervised-umap) to learn a reduced 2-dimensional space for these embeddings.
 
+![reduced_embed_clusters.png](reduced_embed_clusters.png)
+
 Given a test sample, we first encode it, use the same projection to reduce its dimensionality and classify it using a simple [k-nearest neighbors](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html) method.
 
 ## How to use it
