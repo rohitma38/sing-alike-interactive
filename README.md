@@ -21,3 +21,7 @@ This tool was built as a hack during Music Hack Day India in December 2019, the 
 ## Contributors
 * [Athithyan Paramasivan] ()
 * [Rohit M A](https://github.com/rohitma38)
+
+
+## ToDo
+* Add scripts used for pre-processing and generating 2d embedding clusters
